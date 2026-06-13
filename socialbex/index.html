@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SocialBex Privacy Policy</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f2f4f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0b5ed7;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #0b5ed7;
+      margin-top: 25px;
+    }
+
+    .section {
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+    }
+
+    .section-title {
+      cursor: pointer;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .content {
+      display: none;
+      padding-top: 10px;
+    }
+
+    .active .content {
+      display: block;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    a {
+      color: #0b5ed7;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>SocialBex Privacy Policy</h1>
+  <p>Last Updated: June 13, 2026</p>
+</header>
+
+<div class="container">
+
+  <div class="section">
+    <div class="section-title">1. Introduction <span>+</span></div>
+    <div class="content">
+      <p>SocialBex is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">2. Information We Collect <span>+</span></div>
+    <div class="content">
+      <ul>
+        <li><b>Account Information:</b> Email address and password during registration</li>
+        <li><b>Profile Data:</b> Username and optional profile details</li>
+        <li><b>Usage Data:</b> App activity, device info, and interaction logs</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">3. Login & Registration Data <span>+</span></div>
+    <div class="content">
+      <p>When you register or log in, we securely store your authentication details to:</p>
+      <ul>
+        <li>Create and manage your account</li>
+        <li>Keep your account secure</li>
+        <li>Enable login sessions</li>
+      </ul>
+      <p>Passwords are encrypted and not shared with third parties.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">4. How We Use Your Data <span>+</span></div>
+    <div class="content">
+      <ul>
+        <li>To provide and maintain the app</li>
+        <li>To improve user experience</li>
+        <li>To secure accounts and prevent fraud</li>
+        <li>To send important updates</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">5. Data Sharing <span>+</span></div>
+    <div class="content">
+      <p>We do not sell your personal data. We only share data when required by law or to protect users and our service.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">6. Data Security <span>+</span></div>
+    <div class="content">
+      <p>We use reasonable security measures to protect your data. However, no online system is 100% secure.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">7. Your Rights <span>+</span></div>
+    <div class="content">
+      <p>You can request to access, update, or delete your account data at any time by contacting us.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">8. Changes to This Policy <span>+</span></div>
+    <div class="content">
+      <p>We may update this Privacy Policy occasionally. Updates will be posted in the app or on this page.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">9. Contact Us <span>+</span></div>
+    <div class="content">
+      <p>If you have any questions, contact us:</p>
+      <p><b>Email:</b> ochoyomoses@gmail.com</p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 SocialBex. All rights reserved.
+</footer>
+
+<script>
+  const sections = document.querySelectorAll(".section");
+
+  sections.forEach(section => {
+    const title = section.querySelector(".section-title");
+
+    title.addEventListener("click", () => {
+      section.classList.toggle("active");
+
+      const symbol = title.querySelector("span");
+      symbol.textContent = section.classList.contains("active") ? "−" : "+";
+    });
+  });
+</script>
+
+</body>
+</html>
